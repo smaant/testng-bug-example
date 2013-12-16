@@ -2,7 +2,7 @@ package com.mycompany.app.with_inheritance;
 
 import org.testng.annotations.*;
 
-public class WithClass2 extends SuperClass {
+public class WithClass2 extends SuperClass1 {
     @BeforeClass
     public void beforeClass() {
         System.out.println(this.getClass().getName() + ": before class\n");

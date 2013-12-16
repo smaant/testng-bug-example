@@ -1,9 +1,12 @@
 package com.mycompany.app.with_inheritance;
 
-import org.junit.Assert;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
-public class WithClass1 extends SuperClass1 {
+public class WithClass3 extends SuperClass2 {
     @BeforeClass
     public void beforeClass() {
         System.out.println(this.getClass().getName() + ": before class\n");
@@ -22,7 +25,6 @@ public class WithClass1 extends SuperClass1 {
     @AfterMethod
     public void afterMethod() {
         System.out.println(this.getClass().getName() + ": after method\n");
-        Assert.assertTrue(false);
     }
 
     @Test

@@ -4,6 +4,7 @@
         <classes>
             <class name="com.mycompany.app.with_inheritance.WithClass1"/>
             <class name="com.mycompany.app.with_inheritance.WithClass2"/>
+            <class name="com.mycompany.app.with_inheritance.WithClass3"/>
         </classes>
     </test>
 </suite>
