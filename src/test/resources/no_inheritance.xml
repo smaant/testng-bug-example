@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test suite" verbose="1">
+    <test name="groups">
+        <classes>
+            <class name="com.mycompany.app.no_inheritance.NoClass1"/>
+            <class name="com.mycompany.app.no_inheritance.NoClass2"/>
+        </classes>
+    </test>
+</suite>
+
